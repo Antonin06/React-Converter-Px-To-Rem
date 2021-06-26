@@ -1,0 +1,35 @@
+.App {
+	.container {
+		display: flex;
+		justify-content: center;
+		min-height: 100vh;
+		.wrapper {
+			align-content: center;
+			text-align: center;
+			.title {
+				margin-bottom: 20px;
+			}
+			.code-wrapper {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				align-items: center;
+				padding: 20px 0;
+				border: 2px solid black;
+				border-radius: 10px;
+				#toRem,
+				#toPx{
+					background: black;
+					padding: 10px 20px;
+					color: white;
+				}
+				button {
+					background: white;
+					border: 2px solid black;
+					border-radius: 25px;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+}
